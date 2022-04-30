@@ -1,6 +1,6 @@
-name: Github Action for LaTeX
-description: GitHub Action to compile LaTeX documents
-author: Cheng XU
+name: Github Action for LaTeX with gnuplot support
+description: GitHub Action to compile LaTeX documents with gnuplot support
+author: Cheng XU, forked by ktht
 inputs:
   root_file:
     description: The root LaTeX file to be compiled
