@@ -76,8 +76,7 @@ jobs:
           latexmk_use_lualatex: true
       - name: Download extra fonts
         run: |
-          curl -L https://github.com/SorkinType/Fruktur/releases/download/v1.004/Fruktur.v1.004.zip -o Fruktur.zip
-          unzip Fruktur
+          curl -L https://github.com/SorkinType/Fruktur/raw/main/fonts/ttf/Fruktur-Regular.ttf
       - name: Compile LaTeX document with extra_fonts
         uses: ./
         with:
